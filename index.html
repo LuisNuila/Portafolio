@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ernesto Nuila Full Stack Developer</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Ernesto Nuila</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Habilidades</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">Formación Educativa</a></li>
+                            <li><a href="#experiencia" onclick="seleccionar(this)">Experiencia Laboral</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar(this)">Proyectos personales</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Ernesto Nuila</span>, Full Stack Developer</h2>
+                <p class="descripcion">Soy especialista en el desarrollo de sitios web que integra el diseño de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end).</p>
+                <a href="#proyectos">Ir a Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Formación Educativa -->
+    <section id="formacion">
+        <div class="contenedor-foto">
+            <img src="Lic  Ernesto Nuila.jpg" alt="">
+        </div>
+        <div class="formacion">
+            <p class="titulo-seccion">Formación</p>
+            <h2>Hola, Soy <span>Ernesto Nuila</span> </h2>
+            <h3>Full Stack Developer</h3>
+            <p>Tengo conocimientos integrales desde metodologías, lenguajes de programación, y herramientas para cada etapa de desarrollo</p>
+            <p>Con mi perfil, combino las habilidades y los conocimientos de los Frontend y Backend Developers junto con algunos de DevOps, lo que implica trabajar con procesos que los usuarios finales ven, así como los que funcionan en segundo plano para asegurar el funcionamiento del sitio web o la aplicación. </p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="experiencia">
+        <h3 class="titulo-seccion">MIS CONOCIMIENTOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fab fa-js"></i></span>
+                <h4>Porgramación Javascript</h4>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseño</h4>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>Photoshop</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso1" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso2" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>CSS</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso3" id="css"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso4" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="proyectos">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura1.PNG" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura2.PNG" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body></html>
